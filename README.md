@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/room-homepage-using-vitereact-and-sass-S2A9dvuKcF)
+- Live Site URL: [Vercel](https://roomhomepage-jade.vercel.app)
 
 ## Built with
 - Flexbox
