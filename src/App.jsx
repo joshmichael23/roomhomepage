@@ -2,10 +2,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './test.scss'
 import { useState } from 'react';
-import Header from './components/header';
+import Header from './components/Header';
 import Overlay from './components/Overlay';
 import Slide from './components/Slide'
-import Desc from './components/Desc';
 import Bottom from './components/Bottom';
 
 // import { App } from './App.1';
@@ -22,8 +21,6 @@ export default function App(){
       slide == 0 ? setSlide(2) : setSlide(slide + n);
   }
 
-
-
   return (
     <>
       <Header openMobile={openMobile} setOpenMobile={setOpenMobile} />
@@ -31,8 +28,6 @@ export default function App(){
         <Overlay openMobile={openMobile} />
         <Slide slide={slide} setSlide={setSlide} nextSlide={nextSlide}></Slide>
         <Bottom></Bottom>
-
-
       </main>
     </>
   );
